@@ -1,0 +1,91 @@
+	#freeBoard_title{
+		width: 90%;
+		margin: 0 auto;
+		height: 37px;
+		margin-top: 5%;
+		border-bottom: 1px solid #777777;
+	}	
+	#freeBoard_title div:nth-child(1){
+		float: left;
+	}
+	#freeBoard_title div:nth-child(2){
+		width: 80%; 
+		height: 25px;
+		padding-top: 10px; 
+		margin-left: 20%;
+	}
+	#freeBoard_title div button{
+		background-color: white;
+		border: 1px solid #888888;
+		border-radius: 3px;
+	}
+	#freeBoard_title div span:nth-child(1){
+		font-family: '나눔고딕','맑은고딕';
+		font-size: 25px;
+		font-weight: bold;
+		color: #999999;
+	}
+	#freeBoard_title div span:nth-child(2){
+		font-family: '나눔고딕','맑은고딕';
+		font-size: 25px;
+		font-weight: bold;
+	}
+	#freeBoard_contents{
+		width: 90%;
+		margin: 0 auto;
+		margin-bottom: 5%;
+	}
+	#freeBoard_contents_title{
+		width: 100%;
+		padding-top: 4px;
+		height: 27px;
+		background-color: #EAEBED;
+		font-size: 14px;
+		font-family: '나눔고딕','맑은고딕';
+	}
+	#freeBoard_contents_title li{
+		text-align: center;
+		float: left;
+	}
+	#freeBoard_contents_title li:nth-child(1){width:10% ;}
+	#freeBoard_contents_title li:nth-child(2){width:50% ;}
+	#freeBoard_contents_title li:nth-child(3){width:14% ;}
+	#freeBoard_contents_title li:nth-child(4){width:16% ;}
+	#freeBoard_contents_title li:nth-child(5){width:10% ;}
+
+	.freeBoard_contents_info{
+		width: 100%;
+		padding-top: 4px;
+		height: 27px;
+		font-size: 14px;
+		font-family: '나눔고딕','맑은고딕';
+		border-bottom: 1px dotted #999999;
+	}
+	.freeBoard_contents_info li{
+		text-align: center;
+		float: left;
+	}
+	.freeBoard_contents_info li:nth-child(1){width:10% ;}
+	.freeBoard_contents_info li:nth-child(2){width:50% ;}
+	.freeBoard_contents_info li:nth-child(3){width:14% ;}
+	.freeBoard_contents_info li:nth-child(4){width:16% ;}
+	.freeBoard_contents_info li:nth-child(5){width:10% ;}
+
+	.freeBoard_contents_info li:nth-child(2) a:link,.freeBoard_contents_info li:nth-child(2) a:visited{
+		color: black;
+	}
+
+	#freeBoard_page{
+		width: 90%;
+		height: 50px;
+		margin:0 auto;
+		margin-bottom: 3%;
+		text-align: center;
+	}
+
+	#freeBoard_contents_empty{
+		width: 90%;
+		margin: 0 auto;
+		margin-top: 5%;
+		text-align: center;
+	}

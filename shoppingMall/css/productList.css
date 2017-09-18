@@ -1,0 +1,86 @@
+	/*mainContent productList 태그 공통 구성*/
+	.content_2{
+		font-size: 15px;
+		padding-top: 5%;
+		padding-bottom: 5%;
+		margin-bottom: 5%;
+		border-bottom: 1px dotted #737373;
+	}
+	.content_3{
+		padding-bottom: 8%;
+	}
+	.content_4{
+		font-size: 14px;
+	}
+	.clear{
+		clear: both;
+	}
+	.mainContents_contents ul,.productlist_contents ul{
+		font-family: '1훈정글북', '나눔고딕';
+		font-size: 12px;
+		float: left;
+		width: 207px;
+		text-align: center;
+		/*border: 1px solid black;*/
+	}
+	.mainContents_contents ul li, .productlist_contents ul li{
+		margin-left: -30px;
+	}
+	.mainContents_contents img, .productlist_contents img{
+		width: 230px;
+		height: 270px;
+	}
+	.tag_a{
+		width: 500px;
+		color: black;
+	}
+
+	/*productList 화면 css 구성*/
+	
+	.productlist_contents{
+		width: 100%;
+	}
+	.productlist_contents div{
+		margin-bottom: 10px;
+	}
+	#productList_pageCount .tag_a:link, .tag_a:visited{
+		text-decoration:none;
+		color: black;
+	}
+	
+	.productList_title{
+		margin-top: 10px;
+		padding: 20px;
+		border-bottom: 1px dotted #737373; 
+		font-family: '1훈정글북', '나눔고딕';
+		src: url(http://localhost/shopping/font/HoonJunglebook.ttf);
+		font-size: 40px;
+	}
+
+	/*mainContents 화면 css 구성*/
+	.mainContents_title{
+		font-size: 30px;
+		margin-top: 40px;
+		width: 10%;
+		height: 30px;
+		text-align: left;
+	}
+	.mainContents_detail{
+		font-size: 15px;
+		margin-top: 62px;	
+		text-align: right;
+		width: 90%;
+
+	}
+	.mainContents_category{
+		font-family: '1훈정글북','나눔고딕';				
+		width: 100%;
+		height: 80px;
+		margin-top: 2%;
+		margin-bottom: 1%;
+		padding-bottom: 5px;
+		border-bottom: 1px dotted #939393;
+	}
+	.mainContents_category div{
+		float: left;
+	}

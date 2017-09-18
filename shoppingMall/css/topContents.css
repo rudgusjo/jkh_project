@@ -1,0 +1,123 @@
+     #header{
+        margin-top: -10px;
+        margin-left: -10px;
+        width: 101.5%;
+     }
+     #status{
+        text-align: center;
+        margin-top: 50px;
+     }
+     #status a{
+        font-family: '나눔고딕', '맑은고딕';
+        font-weight: bolder;
+        color: gray;
+        font-size: 12px;
+       
+     }
+     #status a:hover{
+        color: black;
+     }
+     #headerLogo{
+        height: 80px;
+        width: 300px;
+        margin-top: 70px;
+
+     }
+	 .pageLogo {
+    	height: 230px;
+        width: 100%;
+        background-color: #f6fafd;
+    	position: relative;
+    }
+    .header_menu{
+        width: 700px;
+        margin:0 auto;
+        margin-top: 2%;
+        padding-bottom: 10px;
+    }
+    .border_bottom{
+        width: 100%;
+        border-bottom: 1px solid #dadada;
+    }
+    .header_menu a:link,.header_menu a:visited{
+        color: #797979;
+        margin-left: 25px;
+        margin-right: 25px;
+        font-family: '나눔고딕', '맑은고딕';
+        font-weight: bold;
+    }
+    .header_menu a:hover{
+        color: black;
+    }
+   
+
+/*     #headerMenu{
+       width: 100%; 
+       height: 500px;
+     }*/
+/*     #headerGreen{
+        position: absolute;
+        top: 145px;
+        width: 1250px;
+        height: 55px;
+        margin-right: 100px;
+     }*/
+
+	/*#topMenu {
+            height: 30px;
+            width: 100%;
+    }
+    #topMenu ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    #topMenu ul li {
+        color: white;
+        float: left;
+        line-height: 30px;
+        vertical-align: middle;
+        text-align: center;
+        position: relative;
+    }
+    .topMenuLink, .submenuLink {
+        text-decoration:none;               
+        display: block;
+        width: 175px;
+        font-size: 12px;
+        font-weight: bold;
+        font-family: "Trebuchet MS", Dotum;
+    }
+    .topMenuLink {
+        color: white;
+    }
+    .topMenuLi:hover .topMenuLink {
+        color: red;
+        background-color: #4d4d4d;
+    }
+    .submenuLink {
+        color: #5d5d5d;
+        background-color: white;
+        border: solid 1px black;
+        margin-top: -1px;   
+        width: 190px;        
+    }
+    .subMenu {
+        position: absolute;     
+        height: 0px;            
+        overflow: hidden;       
+        transition: height .2s; 
+        -webkit-transition: height .2s; 
+        -moz-transition: height .2s; 
+        -o-transition: height .2s;
+    }
+    .topMenuLi:hover .subMenu { 
+        height: 93px;          
+    }
+    .submenuLink:hover {        
+        color: red;                
+        background-color: #dddddd; 
+    }
+    .topMenuLi{
+        position: fixed;
+    }*/
