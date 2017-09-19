@@ -1,0 +1,42 @@
+	#productBuy_point{
+		border-top: 1px solid #888888;
+		border-bottom: 1px solid #888888;
+		width: 90%;
+		height: 70px;
+		margin: 0 auto;
+		padding-top: 1%;
+		font-family: '1훈정글북','나눔고딕';
+		font-size: 13px;	
+	}
+	#productBuy_img_pointUse{
+		width: 90%;
+		margin: 0 auto;
+		margin-top: 4%;
+		padding-bottom: 2px;
+	}
+	#productBuy_point input{
+		margin-left: 1%;
+		width: 90px;
+		border: 1px solid #666666;
+		box-shadow: 0px 0px 0px 0px;
+	}
+	#productBuy_point div:nth-child(1){
+		height: 50%;
+		border-bottom: 1px dotted #999999;
+	}
+	#productBuy_point div:nth-child(2){
+		height: 50%;
+		padding-top: 10px;
+	}
+	#productBuy_button{
+		width: 90%;
+		margin: 0 auto;
+		margin-top: 4%;
+		margin-bottom: 4%;
+	}
+	#productBuy_button button{
+		border: 1px solid #666666;
+		box-shadow: 0px 0px 0px 0px;
+		background-color: white;
+		border-radius: 4px;
+	}

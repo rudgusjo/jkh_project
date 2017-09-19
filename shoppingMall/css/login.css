@@ -1,0 +1,88 @@
+#login_div{
+    margin-left: 30%;
+    margin-top: 70px;
+}
+
+#login_div ul, li {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.clear { clear:both; }
+
+#title{
+	margin-top: 60px;
+	margin-left: 25px;
+	padding-bottom: 10px;
+	width: 95%;
+	border-bottom:solid 1px #cacaca;
+}
+
+#login2{
+	margin-left: 30px;
+}
+
+#login_msg{
+	margin-left: 23px;
+}
+
+#login_form #login1 {
+	float:left;
+    margin-left:20px;
+	margin-top:20px;
+}
+
+#login_form #login2 {
+	
+	width:400px;
+	height:150px;
+	margin-top:40px;
+}
+
+#login2 #id_pw_title {
+	float:left;
+	width:80px;
+	height:50px;
+	text-align:right;
+}
+
+#login2 #id_pw_title ul{
+	margin-top:7px;
+}
+
+#login2 #id_pw_title li{
+	padding-bottom:11px;
+}
+
+#login2 #id_pw_input {
+	float:left;
+	height:50px;
+	margin-left:10px;
+}
+
+#login2 #id_pw_input li{
+	padding-bottom:7px;
+}
+
+#login2 #id_pw_input input.login_input {
+	width:150px;
+	height:18px;
+	border:solid 1px #cccccc;
+}
+
+#login2 #login_button {
+	float:left;
+	margin-left:10px;
+}
+
+#login_line{
+	margin-left: 15px;
+	width:97%;
+	border-bottom:solid 1px #cacaca;
+}
+
+#join_button {
+	margin-left: 35%; 
+	margin-top: 20px;
+	width: 90%;
+}

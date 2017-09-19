@@ -1,0 +1,28 @@
+	#writeBody{
+ 		margin-top: 3%;
+ 	}	
+
+ 	.divTR{
+		width:100%;
+		clear:both;
+		line-height:30px;
+		margin:0px auto;
+		margin-top:5px;
+		display:inline-block;
+		border-bottom:1px dotted #444444;
+		}
+
+	.divTDCon {
+		width:75%;
+		float:right;
+		line-height:30px;
+		padding-top:5px;
+		display:inline-block;
+		padding:5px;
+	}
+
+	#container{
+		margin: 10px;
+		border: 0px solid #D0D0D0;
+		-webkit-box-shadow: 0 0 8px #D0D0D0;
+	}
