@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:text="LOGIN"
+            android:textSize="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="171dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="51dp">
+
+            <TextView
+                android:text="ID"
+                android:layout_width="53dp"
+                android:layout_height="match_parent"
+                android:id="@+id/login_id_label"
+                android:textSize="24sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textPersonName"
+                android:text="StudentID"
+                android:ems="10"
+                android:id="@+id/login_id" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="52dp">
+
+            <TextView
+                android:text="Pass"
+                android:layout_width="8dp"
+                android:layout_height="match_parent"
+                android:id="@+id/login_password_label"
+                android:textSize="24sp"
+                android:layout_weight="0.16" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:inputType="textPersonName"
+                android:text="Password"
+                android:ems="10"
+                android:id="@+id/login_password"
+                android:layout_weight="0.40" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="로그인"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/login_btn" />
+
+            <Button
+                android:text="가입"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/join_btn" />
+
+            <Button
+                android:text="취소"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cancle_btn" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
